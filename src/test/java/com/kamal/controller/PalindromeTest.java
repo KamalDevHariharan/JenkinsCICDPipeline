@@ -12,9 +12,4 @@ public class PalindromeTest {
 	    assertTrue(palindromeTester.isPalindrome("madam"));
 	}
 
-	@Test
-	public void incorrectPalindrome() {
-	    Palindrome palindromeTester = new Palindrome();
-	    assertTrue(palindromeTester.isPalindrome("Hi"));
-	}
 }
