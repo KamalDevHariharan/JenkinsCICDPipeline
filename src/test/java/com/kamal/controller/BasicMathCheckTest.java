@@ -7,7 +7,7 @@ public class BasicMathCheckTest {
 
     @Test
     public void Addition() {
-        BasicMathCheckTest test = new BasicMathCheckTest();
+        BasicMathCheck test = new BasicMathCheck();
         Assert.assertEquals("expected value: 7", 7, test.addition(5,2));
     }
 
